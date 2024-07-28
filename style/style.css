@@ -17,9 +17,10 @@
     text-align: center;
     border-radius: 6.4px;
     background: rgb(82, 195, 3);
+    cursor: pointer;
 }
 
-.btn-container{
+.btn-container {
     text-align: center;
 }
 
@@ -75,4 +76,141 @@
     opacity: 0.7;
     margin-bottom: 25.6px;
 
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+
+#card-box {
+    width: 1056px;
+    margin: 134px auto;
+}
+
+#card-box .info {
+    margin-bottom: 39px;
+}
+
+#card-box .subtitles {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.card {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box {
+    max-width: 340px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 25px 10px 25px;
+}
+
+#about .container {
+    display: flex;
+}
+
+#about .container .side-img {
+    max-width: 769px;
+}
+
+#about .container .side-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+   background-color: bisque;
+}
+
+.info .title {
+    width: 664px;
+    margin: 108px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .title h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.info .title p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+
+}
+
+.info .title .follow {
+    margin: 24px auto;
+}
+
+.info .title .follow p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icons{
+    width: 210px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.icons .small{
+    max-height: 32px;
+}
+
+.icons .small img{
+    height: 100%;
 }
